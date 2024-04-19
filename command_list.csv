@@ -1,0 +1,90 @@
+    1  ping rozetka.com.ua
+    2  cd ../
+    3  cd /c/Users/natal/OneDrive/Desktop/QA35
+    4  clear
+    5  pwd
+    6  ls -l
+    7  touch test.txt
+    8  ls -l
+    9  vim test.txt
+   10  cat test.txt
+   11  mkdir Nataliia
+   12  ls -l
+   13  cp test.txt Nataliia/
+   14  ls -l
+   15  cd Nataliia/
+   16  ls -l
+   17  rm test.txt
+   18  ls -l
+   19  clear
+   20  ping google.com
+   21  date
+   22  systeminfo
+   23  clear
+   24  cd ../
+   25  attrib +r test.txt
+   26  ls -l
+   27  attrib +r test.txt
+   28  ls -l
+   29  cd /c/Users/natal/OneDrive/Desktop/QA35
+   30  git clone [200~https://github.com/Nataliia3224/QA35.git~
+   31  git clone [200~https://github.com/Nataliia3224/QA35.git~
+   32  cd /c/Users/natal/OneDrive/Desktop/QA35
+   33  git clone https://github.com/Nataliia3224/QA35.git
+   34  cd QA35
+   35  git config --global user.name "Nataliia Huzh"
+   36  git config --global user.email "guzh.n.v.1292@gmail.com"
+   37  touch file.txt
+   38  git status
+   39  git add file.txt
+   40  git status
+   41  git commit -m "first commit"
+   42  git push
+   43  clear
+   44  git branch
+   45  git checkout -b test
+   46  git branch
+   47  touch test.txt
+   48  ls -l
+   49  git status
+   50  git add test.txt
+   51  git status
+   52  git commit -m "second commit"
+   53  git checkout main
+   54  git merge test
+   55  git push
+   56  cd /c/Users/natal/OneDrive/Desktop/QA35HW
+   57  -c && rm ~/.bash_history
+   58  clear
+   59  -c && rm ~/.bash_history
+   60  -c && rm ~/.bash_history
+   61  cd /c/Users/natal/OneDrive/Desktop/QA35HW
+   62  -c && rm ~/.bash_history
+   63  git config --global user.name "Nataliia Huzh"
+   64  git config --global user.email "guzh.n.v.1292@gmail.com"
+   65  git clone https://github.com/Nataliia3224/HW_10.git
+   66  cd /c/Users/natal/OneDrive/Desktop/QA35HW/HW_10
+   67  touch text_ignore.txt
+   68  vim .gitignore
+   69  git status
+   70  git add .gitignore
+   71  git status
+   72  git commit -m "First commit"
+   73  touch main_test.txt
+   74  git add main_test.txt
+   75  git status
+   76  git commit -m "Second commit"
+   77  git branch
+   78  git checkout -b develop
+   79  touch develop_test.txt
+   80  git status
+   81  git add develop_test.txt
+   82  git commit -m "Third commit"
+   83  vim develop_test.txt
+   84  git status
+   85  git add develop_test.txt
+   86  git commit -m "4"
+   87  git checkout main
+   88  git merge develop
+   89  git log
+   90  history > command_list.csv
